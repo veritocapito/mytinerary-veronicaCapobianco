@@ -1,14 +1,15 @@
-import Header from "../components/Header"
+import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import { Outlet } from "react-router-dom";
 
-const MainLayer = ({ children }) => {
+const MainLayout = () => {
     return (
         <div className="w-full">
-            <Header />
-            {children}
+            <Navbar />
+                <Outlet/>
             <Footer />
         </div>
     )
 }
 
-export default MainLayer;
+export default MainLayout;

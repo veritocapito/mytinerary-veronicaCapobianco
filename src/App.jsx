@@ -1,15 +1,13 @@
 import 'tailwindcss/tailwind.css';
 import './App.css'
-import MainLayer from './layouts/MainLayout';
-import Home from './pages/index/Home'
+import { RouterProvider } from 'react-router-dom';
+import router from './router/router';
 
 
 function App() {
 
   return (
-    <MainLayer>
-      <Home />
-    </MainLayer>
+    <RouterProvider router = {router}/>
   )
 }
 

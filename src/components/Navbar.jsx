@@ -1,22 +1,15 @@
 import {useState} from 'react';
 import Link from './Link';
-import {LINKSHOME} from '../utils/enums'
+import {LINKSHOME} from '../utils/enums';
+import { Link as Anchor } from "react-router-dom";
 
 const Navbar = () => {
 
     const [nav, setNav] =useState(false)
-    /*     const handleNav = () => {
-        setNav(!nav)
-    } */
-
-/*     const links = [
-        {title: 'Home', to: '/home'},
-        {title: 'Cities', to: '/cities'},
-    ] */
 
     return (
         <>
-            <div className="w-full  items-center px-4 sm:px-6 lg:px-8 xl:px12 absolute navbar-center z-10 text-white">
+            <div className="w-full items-center px-4 sm:px-6 lg:px-8 xl:px12 absolute navbar-center z-10 text-white">
                 <div className="flex h-16 items-center justify-between">
                     <div className="flex-1 md:flex md:items-center md:gap-12">
                             <h2 className="md:text-2xl font-bold">My Tinerary</h2>
@@ -25,7 +18,7 @@ const Navbar = () => {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center md:gap-6 text-sm">
                                 {
-                                    LINKSHOME?.map((link, key) => (<Link key={key} title={link.title} to={link.to}/>))
+                                    LINKSHOME?.map((link, key) => (<Anchor key={key}  to={link.to}>{link.title}</Anchor>))
                                 }
                             </ul>
                         </nav>

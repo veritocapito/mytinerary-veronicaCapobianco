@@ -1,5 +1,5 @@
 export const LINKSHOME = [
-    {title: 'Home', to: '/home'},
+    {title: 'Home', to: '/'},
     {title: 'Cities', to: '/cities'},
 ]
 
