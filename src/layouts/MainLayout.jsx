@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
     return (
-        <div className="w-full">
+        <div className="w-full h-screen">
             <Navbar />
                 <Outlet/>
             <Footer />

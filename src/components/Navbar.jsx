@@ -1,6 +1,5 @@
-import {useState} from 'react';
-import Link from './Link';
-import {LINKSHOME} from '../utils/enums';
+import { useState } from 'react';
+import { LINKSHOME } from '../utils/enums';
 import { Link as Anchor } from "react-router-dom";
 
 const Navbar = () => {
@@ -50,7 +49,7 @@ const Navbar = () => {
                         <ul className="flex flex-col items-center gap-6 text-sm">
                             <h2 className="text-xl self-start font-bold">My Tinerary</h2>
                             {
-                                LINKSHOME?.map((link, key) => (<Link key={key} title={link.title} to={link.to}/>))
+                                LINKSHOME?.map((link, key) => (<Anchor key={key}  to={link.to}>{link.title}</Anchor>))
                             }
                             <div className="sm:flex sm:gap-4">
                                 <a className="rounded-md flex btn-primary px-5 py-2.5 text-sm font-medium text-white transition" href="/"><img src="../img/user.svg" alt="user"/>Login</a>
