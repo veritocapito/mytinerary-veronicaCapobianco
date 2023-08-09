@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.carousel{
+    height: 80vh;
+}

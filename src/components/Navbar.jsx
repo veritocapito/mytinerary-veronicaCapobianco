@@ -1,17 +1,18 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import Link from './Link';
+import {LINKSHOME} from '../utils/enums'
 
 const Navbar = () => {
 
     const [nav, setNav] =useState(false)
-    const handleNav = () => {
+    /*     const handleNav = () => {
         setNav(!nav)
-    }
+    } */
 
-    const links = [
+/*     const links = [
         {title: 'Home', to: '/home'},
         {title: 'Cities', to: '/cities'},
-    ]
+    ] */
 
     return (
         <>
@@ -24,12 +25,12 @@ const Navbar = () => {
                         <nav aria-label="Global" className="hidden md:block">
                             <ul className="flex items-center md:gap-6 text-sm">
                                 {
-                                    links?.map((link, key) => (<Link key={key} title={link.title} to={link.to}/>))
+                                    LINKSHOME?.map((link, key) => (<Link key={key} title={link.title} to={link.to}/>))
                                 }
                             </ul>
                         </nav>
                     </div>
-                    <div className="flex items-center gap-4">
+                    <div className="hidden md:flex items-center gap-4">
                         <div className="sm:flex sm:gap-4">
                             <a className="rounded-md flex btn-primary ml-8 px-5 py-2.5 text-sm font-medium text-white transition" href="/"><img src="../img/user.svg" alt="user"/>Login</a>
                         </div>
@@ -37,7 +38,7 @@ const Navbar = () => {
 
 
                     {/* Hamburger menu */}
-                    <div onClick={handleNav} className="md:hidden mx-2 z-10">
+                    <div onClick={() => setNav((prev)=> !prev)} className="md:hidden mx-2 z-10">
                     {nav 
                         ? 
                         <button className="block rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
@@ -52,11 +53,11 @@ const Navbar = () => {
 
 
                     {/* Mobile Menu Dropdown */}
-                    <nav aria-label="Global" onClick={handleNav} className={ nav ? 'absolute px-4 py-7 left-0 top-0 w-full bg-gray-500/90' : 'absolute left-[-100%]'}>
+                    <nav aria-label="Global" onClick={() => setNav((prev)=> !prev)} className={ nav ? 'absolute px-4 py-7 left-0 top-0 w-full bg-gray-500/90' : 'absolute left-[-100%]'}>
                         <ul className="flex flex-col items-center gap-6 text-sm">
                             <h2 className="text-xl self-start font-bold">My Tinerary</h2>
                             {
-                                links?.map((link, key) => (<Link key={key} title={link.title} to={link.to}/>))
+                                LINKSHOME?.map((link, key) => (<Link key={key} title={link.title} to={link.to}/>))
                             }
                             <div className="sm:flex sm:gap-4">
                                 <a className="rounded-md flex btn-primary px-5 py-2.5 text-sm font-medium text-white transition" href="/"><img src="../img/user.svg" alt="user"/>Login</a>
