@@ -3,7 +3,7 @@ import videoBg from '../assets/sunset.mp4'
 const HeroHome = () => {
     return (
         <>
-            <div className='w-screen h-full relative bg-gray-900/30'>
+            <div className='w-full h-full relative bg-gray-900/30'>
                 <video src={videoBg} muted autoPlay loop className='h-full w-full object-cover -z-10' />
                 <div className="absolute top-0 w-full h-full flex flex-col text-center justify-center text-white p-4">
                     <h1 className="text-5xl font-bold">Find the perfect destination</h1>
