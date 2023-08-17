@@ -33,7 +33,7 @@ const Caroussel = () => {
     }, [slide]);
 
     return (
-        <div className="carousel w-full flex flex-col justify-center bg-gray-900 ">
+        <div className="carousel w-full flex flex-col justify-center bg-gray-900 " id="carrousel">
             <h2 className="carousel-title text-center text-3xl text-white">Popular MyTineraries</h2>
             <div className="flex justify-around items-center h-80 my-4 lg:justify-evenly">
                 <button className="prev-btn" onClick={onHandlePrev}>

@@ -5,90 +5,105 @@
             "city":"Barcelona", 
             "country": "Spain",
             "image": "https://www.adondeviajare.com/wp-content/uploads/2022/01/Barcelona.jpg",
+            "description": "Barcelona is a city on the northeastern coast of Spain. It is the capital and largest city of the autonomous community of Catalonia, as well as the second most populous municipality of Spain. It is one of the largest metropolises on the Mediterranean Sea, bounded to the west by the Serra de Collserola mountain range.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Bariloche", 
-            "country": "Argentine",
+            "country": "Argentina",
             "image": "https://services.meteored.com/img/article/bariloche-premiado-uno-de-los-mejores-destinos-del-mundo-para-esquiar-nieve-catedral-patagonia-argentina-invierno-1653905368512_1024.jpg",
+            "description": "San Carlos de Bariloche, usually known as Bariloche, is a city in the province of Río Negro, Argentina, situated in the foothills of the Andes on the southern shores of Nahuel Huapi Lake. It is located within the Nahuel Huapi National Park. In addition, it has numerous restaurants, cafés, and chocolate shops.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
-            "city":"Calafate", 
-            "country": "Argentine",
+            "city":"El Calafate", 
+            "country": "Argentina",
             "image": "https://www.passporttheworld.com/wp-content/uploads/2023/01/calafate7.jpg",
+            "description": "El Calafate, also known as Calafate, is a city in Patagonia, Argentina. It is situated on the southern border of Lake Argentino, in Santa Cruz Province. It is an important tourist destination as the hub to visit different parts of the Los Glaciares National Park, including Perito Moreno Glacier, Cerro Chaltén, and Cerro Torre.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Florence", 
             "country": "Italy",
             "image": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Florence/florence-aerial-lead-guide.jpg?imwidth=960",
+            "description": "Florence is the capital city of the region of Tuscany in Central Italy. It is also the most populated city in Tuscany. It is considered by many academics[6] to have been the birthplace of the Renaissance, becoming a major artistic, cultural, commercial, political, economic and financial center",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Lisbon", 
             "country": "Portugal",
             "image": "https://www.estaentumundo.com/wp-content/imagenes/2009/02/tranvia-lisboa-e1581522733472.jpg",
+            "description": "Lisbon is the capital and largest city of Portugal. It is recognised as an alpha-level global city because of its importance in finance, commerce, fashion, media, entertainment, arts, international trade, education and tourism. Lisbon is one of two Portuguese cities (alongside Porto) to be recognised as a global city.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"London", 
             "country": "UK",
             "image": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/blt55aa6fe881d45976/6091355f1671db1046c1a59c/UK_CityofLondon_UK_Header.jpg?width=1680&quality=70&auto=webp",
+            "description": "London is the capital and largest city of England and the United Kingdom. As one of the world's major global cities, London exerts a strong influence on its arts, entertainment, fashion, commerce and finance, education, health care, media, science and technology, tourism, transport, and communications.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Madrid", 
             "country": "Spain",
             "image": "https://images.squarespace-cdn.com/content/v1/5a86b05bcf81e0af04936cc7/1555685897328-05RYJ3IHBEYEROE3YNAR/que-ver-y-hacer-en-madrid-gran-via.jpg",
+            "description": "Madrid is the capital and most populous city of Spain, it is also the political, economic and cultural centre of the country. Its influence in politics, education, entertainment, environment, media, fashion, science, culture, and the arts all contribute to its status as one of the world's major global cities.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Mar Del Plata", 
-            "country": "Argentine",
+            "country": "Argentina",
             "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mar-del-plata.JPG",
+            "description": "Mar del Plata is a city on the coast of the Atlantic Ocean, in Buenos Aires Province, Argentina. It is the seat of General Pueyrredón district. Mar del Plata is the second largest city in Buenos Aires Province. Mar del Plata is one of the major fishing ports and the biggest seaside beach resort in Argentina.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Miami", 
             "country": "USA",
             "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/f0/3e/39/exterior.jpg?w=700&h=-1&s=1",
+            "description": "Miami, officially the City of Miami, is a coastal metropolis and the seat of Miami-Dade County in South Florida. It is a major center and leader in finance, commerce, culture, arts, and international trade. Miami's metropolitan area is by far the largest urban economy in Florida.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"New York", 
             "country": "USA",
             "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/aa/b1/79/caption.jpg?w=1200&h=-1&s=1",
+            "description": "It is a global city and a cultural, financial, high-tech, entertainment, glamor, and media center with a significant influence on commerce, health care and scientific output in life sciences, research, technology, education, politics, tourism, dining, art, fashion, and sports. Home to the headquarters of the United Nations.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Rio di Janeiro", 
             "country": "Brazil",
             "image": "https://media.staticontent.com/media/pictures/e63f71e3-03fb-4c1b-a1e6-c8b1586a7e73",
+            "description": "It is one of the most visited cities in the Southern Hemisphere, known for its natural settings, carnival, samba, bossa nova, and balneario beaches such as Barra da Tijuca, Copacabana, Ipanema, and Leblon. In addition, some of the most famous landmarks include the giant statue of Christ the Redeemer atop Corcovado mountain.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Rome", 
             "country": "Italy",
             "image": "https://historia.nationalgeographic.com.es/medio/2019/12/11/coliseo-roma_2924b6ae_1280x720.jpg",
+            "description": "Rome is located in the central-western portion of the Italian Peninsula, within Lazio, along the shores of the Tiber. Vatican City (the smallest country in the world) is an independent country inside the city boundaries of Rome, the only existing example of a country within a city. Rome is often referred to as the 'Eternal City'.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Paris", 
             "country": "France",
             "image": "https://www.viveparis.es/sites/default/files/imagenes/articulos/bateaux_mouches.jpg",
+            "description": "It is the capital and most populous city of France. Paris has been one of the world's major centres of finance, diplomacy, commerce, culture, fashion, gastronomy and many areas. For its leading role in the arts and sciences, as well as its early and extensive system of street lighting, in the 19th century, it became known as 'the City of Light'.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
             "city":"Tokio", 
             "country": "Japan",
             "image": "https://media.gettyimages.com/id/1057828058/es/foto/teenager-walking-akihabara-electric-town-tokyo-japan.jpg?s=612x612&w=0&k=20&c=WQTCEimUpcWBQw-GbWdVBBQ-gSUq-aTanAe3McEQRQ0=",
+            "description": "It is the capital and most populous city of Japan. Formerly known as Edo, Tokyo is the largest urban economy in the world by gross domestic product, and is categorized as an Alpha+ city by the Globalization and World Cities Research Network. It is also Japan's leading business hub as part of an industrial region.",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
-            "city":"Venecia", 
+            "city":"Venice", 
             "country": "Italy",
             "image": "https://media.admagazine.com/photos/6272a4f879a42d127518492f/master/pass/Puente%20Rialto%20Venecia.jpg",
+            "description": "It is built on a group of 118 small islands that are separated by expanses of open water and by canals; portions of the city are linked by over 400 bridges. It is a very popular tourist destination, a major cultural centre, and has been ranked many times the most beautiful city in the world.",
             "user": "64da51d6fd2f86bfa1dcb057"
         }
     ]
