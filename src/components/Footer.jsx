@@ -5,19 +5,6 @@ import { Link as Anchor } from "react-router-dom";
 const Footer = () => {
     return (
         <footer className="bg-gray-50 dark:bg-gray-950">
-{/*             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-                <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="flex justify-center sm:justify-start"> 
-                        <img src="./src/assets/logo.png" alt="logo" className='rounded w-50 h-8 w-auto' />
-                    </div>
-                    <div className="flex justify-center text-teal-600 dark:text-teal-300 sm:justify-start"> 
-                        
-                    </div>
-                    <p className="mt-4 text-center text-sm text-gray-500 font-bold dark:text-gray-400 lg:mt-0 lg:text-right">
-                        &copy; 2023 - @veritocapito
-                    </p>
-                </div>
-            </div> */}
             <div className="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
                 <div className="md:flex md:items-end md:gap-8 md:justify-between">
                     <div className="col-span-2 sm:col-span-1">

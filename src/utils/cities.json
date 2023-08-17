@@ -14,6 +14,18 @@
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
+            "city":"Calafate", 
+            "country": "Argentine",
+            "image": "https://www.passporttheworld.com/wp-content/uploads/2023/01/calafate7.jpg",
+            "user": "64da51d6fd2f86bfa1dcb057"
+        },
+        {
+            "city":"Florence", 
+            "country": "Italy",
+            "image": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Florence/florence-aerial-lead-guide.jpg?imwidth=960",
+            "user": "64da51d6fd2f86bfa1dcb057"
+        },
+        {
             "city":"Lisbon", 
             "country": "Portugal",
             "image": "https://www.estaentumundo.com/wp-content/imagenes/2009/02/tranvia-lisboa-e1581522733472.jpg",
@@ -26,27 +38,21 @@
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
+            "city":"Madrid", 
+            "country": "Spain",
+            "image": "https://images.squarespace-cdn.com/content/v1/5a86b05bcf81e0af04936cc7/1555685897328-05RYJ3IHBEYEROE3YNAR/que-ver-y-hacer-en-madrid-gran-via.jpg",
+            "user": "64da51d6fd2f86bfa1dcb057"
+        },
+        {
+            "city":"Mar Del Plata", 
+            "country": "Argentine",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mar-del-plata.JPG",
+            "user": "64da51d6fd2f86bfa1dcb057"
+        },
+        {
             "city":"Miami", 
             "country": "USA",
-            "image": "https://www.viajarmiami.com/img/guia-viaje-miami.jpg",
-            "user": "64da51d6fd2f86bfa1dcb057"
-        },
-        {
-            "city":"Florence", 
-            "country": "Italy",
-            "image": "https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Italy/Florence/florence-aerial-lead-guide.jpg?imwidth=960",
-            "user": "64da51d6fd2f86bfa1dcb057"
-        },
-        {
-            "city":"Calafate", 
-            "country": "Argentine",
-            "image": "https://www.passporttheworld.com/wp-content/uploads/2023/01/calafate7.jpg",
-            "user": "64da51d6fd2f86bfa1dcb057"
-        },
-        {
-            "city":"Rome", 
-            "country": "Italy",
-            "image": "https://historia.nationalgeographic.com.es/medio/2019/12/11/coliseo-roma_2924b6ae_1280x720.jpg",
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/f0/3e/39/exterior.jpg?w=700&h=-1&s=1",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
@@ -56,21 +62,15 @@
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
-            "city":"Madrid", 
-            "country": "Spain",
-            "image": "https://images.squarespace-cdn.com/content/v1/5a86b05bcf81e0af04936cc7/1555685897328-05RYJ3IHBEYEROE3YNAR/que-ver-y-hacer-en-madrid-gran-via.jpg",
-            "user": "64da51d6fd2f86bfa1dcb057"
-        },
-        {
             "city":"Rio di Janeiro", 
             "country": "Brazil",
             "image": "https://media.staticontent.com/media/pictures/e63f71e3-03fb-4c1b-a1e6-c8b1586a7e73",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {
-            "city":"Mar Del Plata", 
-            "country": "Argentine",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Mar-del-plata.JPG",
+            "city":"Rome", 
+            "country": "Italy",
+            "image": "https://historia.nationalgeographic.com.es/medio/2019/12/11/coliseo-roma_2924b6ae_1280x720.jpg",
             "user": "64da51d6fd2f86bfa1dcb057"
         },
         {

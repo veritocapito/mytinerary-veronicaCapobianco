@@ -5,3 +5,7 @@
 .carousel{
     height: 80vh;
 }
+
+.card-title:hover, .card-subtitle:hover{
+    color: rgb(190 24 93);
+}
